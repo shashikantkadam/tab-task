@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.mytabLi{
+	background-color:skyblue;
+}
+.mytabLi li{
+	list-style:none;
+	display:inline-block;
+	width:24.7%;
+	text-align:center;
+	padding:10px 15px;
+	font-size:1.2rem;
+	font-weight:bold;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.active{
+	background-color:orange;
+}
+.hidePanel{
+	display:none;
+}
